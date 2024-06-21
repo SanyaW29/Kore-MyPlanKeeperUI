@@ -3239,6 +3239,7 @@
                     <div role="log" aria-live="polite" aria-atomic="true" class="kore-chat-body"> \
                         <div class="errorMsgBlock"> \
                         </div> \
+                        <div class="grace-avatar"><img class="grace-pic" src="./Assets/Avatar_Grace_3.png"></div> \
                         <ul class="chat-container"></ul> \
                     </div> \
                     <div class="kore-chat-footer disableFooter">' + chatFooterTemplate + '{{if isSendButton}}<div class="sendBtnCnt"><button class="sendButton disabled" type="button">${botMessages.sendText}</button></div>{{/if}}</div> \
