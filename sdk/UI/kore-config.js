@@ -22,15 +22,15 @@
 
     botOptions.JWTUrl = "http://localhost:3000/api/users/sts";
     botOptions.userIdentity = 'Users';// Provide users email id here
-    botOptions.botInfo = { name: "Grace", "_id": "st-a890741b-d09f-5c49-a8e1-e895dff5db4e" }; // bot name is case sensitive
+    botOptions.botInfo = { name: "Grace2", "_id": "st-5a1f772e-95c9-56c1-a54d-684e541396e7" }; // bot name is case sensitive
 
     /* 
     Important Note: These keys are provided here for quick demos to generate JWT token at client side but not for Production environment.
     Refer below document for JWT token generation at server side. Client Id and Client secret should maintained at server end.
     https://developer.kore.ai/docs/bots/sdks/user-authorization-and-assertion/
     **/
-    botOptions.clientId = "cs-1ebaecbb-7189-5e50-b22f-fa858027a72e";
-    botOptions.clientSecret = "DzECA6gek3KjmUjcnC//vp22WXXho5iwSATMUPKZ9l0=";
+    botOptions.clientId = "cs-e09fa90b-6941-5bc2-93a6-42ed6a314c7e";
+    botOptions.clientSecret = "ftpDyREBTgXU5EkcufBuRCZcLmBGkPjMZ50OpV7/z38=";
     botOptions.brandingAPIUrl = botOptions.koreAPIUrl +'websdkthemes/'+  botOptions.botInfo._id+'/activetheme';
     botOptions.enableThemes = true;
 // for webhook based communication use following option 
