@@ -1,6 +1,18 @@
 #background {
     background-color: rgb(226 249 255);
 }
+#navbar{
+    background-color: #000;
+    height: 46px;
+    margin-top: -1%;
+    margin-left: -1%;
+    width: 101.65%;
+}
+#logo{
+    height: 80px;
+    margin-top: 1.25%;
+    margin-left: 92%;
+}
 #IntroPic{
     margin-left: 15%;
     margin-top: 15%;

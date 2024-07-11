@@ -750,24 +750,30 @@
 
 .kore-chat-window .kore-chat-header .chat-box-controls button {
     cursor: pointer;
+    display: inline-flex;
     background: none;
     border: none;
     opacity: 1;
     outline: none;
-    font-size: 30px;
+    font-size: 13px;
     vertical-align: top;
-    height: 50px;
-    line-height: inherit;
-    margin-left: -150%;    
-    padding: 0 0px;
+    height: 35px;
+    /* line-height: unset; */
+    margin-right: -105%;
+    margin-left: 105%;
+    padding: 10px 10px;
+    background: linear-gradient(90deg, rgba(16,167,207,1) 23%, rgba(57,150,207,1) 79%);
+    border-radius: 10px;
+    color: mintcream;
 }
 
 .kore-chat-window .kore-chat-header .chat-box-controls .reload-btn {
     margin-top: 0;
     background-size: 16px 16px;
-    display: inline-block;
-    font-size: 18px;
+    font-size: 13px;
     background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgba(16,167,207,1) 23%, rgba(57,150,207,1) 79%);
+    border-radius: 10px;
 }
 
 @media(max-width: 767px) {
@@ -1000,20 +1006,12 @@
     width: 60%;
     max-width: 200%;
     margin: 0 auto;
-    border-radius: 2px;
+    border-radius: 10px 10px 0px 0px;
     background: var(--sdk-chat-window-body-bg);
     padding: 0% 3% 0% 2%;
     margin-left: 62%;
-    height: 13%;
+    height: 10%;
     margin-top: 60%;
-    /* position: absolute;
-    bottom: 0;
-    width: 100%;
-    min-height: 38px;
-    border-top: 1px solid var(--sdk-chat-window-footer-border-clr);
-    background: var(--sdk-chat-window-footer-bg);
-    color: var(--sdk-chat-window-footer-font-clr);
-    padding: 5px 20px; */
 }
 
 .kore-chat-window .kore-chat-footer:after {
@@ -1023,6 +1021,7 @@
     right: 0px;
     bottom: 0px;
     z-index: 999;
+    width: 100%;
     height: 2px;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -1030,7 +1029,7 @@
     background: linear-gradient(to right, #b294ff, #57e6e6, #feffb8, #57e6e6, #b294ff, #57e6e6);
     background-size: 500% auto;
     animation: gradient 3s linear infinite;
-  }
+}
   
   .kore-chat-window .kore-chat-footer input {
     flex-grow: 1;
@@ -1070,15 +1069,16 @@
     width: 100%;
     resize: none;
     word-wrap: break-word;
-    padding: 8px 0;
+    white-space: pre-wrap;
+    padding: 8px 8px;
     outline: none;
     display: block;
-    font-size: 16px;
+    font-size: 13px;
     cursor: text;
     margin-bottom: 16px;
     max-height: 70px;
     overflow-x: hidden;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 .kore-chat-window .kore-chat-footer .chatInputBoxPlaceholder {
@@ -1480,10 +1480,10 @@
 .kore-chat-window .ttsSpeakerEnable {
     background-image: url('./Assets/volume-up.png');
     background-size: 100% 100%;
-    width: 40px;
-    height: 40px;
-    margin-top: -130%;
-    margin-left: 1015%;
+    width: 32px;
+    height: 30px;
+    margin-top: -163%;
+    margin-left: 1270%;
             /* margin: -4px; */
     display: block;
 }
@@ -1491,10 +1491,10 @@
 .kore-chat-window .ttsSpeakerDisable {
     background-image: url('./Assets/volume_mute.png');
     background-size: 100% 100%;
-    width: 40px;
-    height: 40px;
-    margin-top: -130%;
-    margin-left: 1015%;
+    width: 32px;
+    height: 30px;
+    margin-top: -163%;
+    margin-left: 1270%;
             /* margin: -4px; */
     display: block;
 }
@@ -1502,10 +1502,10 @@
 .kore-chat-window .microphoneBtn .notRecordingMicrophone .microphone {
     background-image: url('./Assets/mic_mute.png');
     background-size: 100% 100%;
-    width: 40px;
-    height: 40px;
-    margin-top: -130%;
-    margin-left: 1027%;
+    width: 32px;
+    height: 30px;
+    margin-top: -163%;
+    margin-left: 1270%;
         /* margin: -4px; */
     display: block;
 }
@@ -1513,11 +1513,11 @@
 .kore-chat-window .microphoneBtn .recordingMicrophone .microphone {
     background-image: url('./Assets/mic.png');
     background-size: 100% 100%;
-    width: 40px;
-    height: 40px;
-    margin-top: -133%;
-    margin-left: 1030%;
-        /* margin: -4px; */
+    width: 32px;
+    height: 30px;
+    margin-top: -161%;
+    margin-left: 1268%;
+    /* margin: -4px; */
     display: block;
     /* float: left; */
 }
